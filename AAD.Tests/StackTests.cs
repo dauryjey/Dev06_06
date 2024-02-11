@@ -39,8 +39,6 @@ public class StackTests
     {
         var stack = new Stack<int>();
         
-        var result = stack.Peek();
-        
-        Assert.Throws<InvalidOperationException>(() => stack.Pop());
+        Assert.Throws<InvalidOperationException>(() => stack.Peek());
     }
 }
